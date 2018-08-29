@@ -21,11 +21,13 @@
 
         .wrap {
             width: 100%;
-            height: 600px;
+            /*height: 600px;*/
+            height: 100%;
             position: absolute;
-            top: 50%;
-            margin-top:-300px;
-            background-color: #475053;
+            /*top: 50%;*/
+            /*margin-top:-300px;*/
+            /*background-color: #475053;*/
+            background-image: url("images/cover.jpg");
             overflow: hidden;
             perspective: 800px;
             -webkit-perspective: 800px;
@@ -236,7 +238,7 @@
 
             _nav += '<span id="nav_' + (i + 1) + '" onclick="turn(g(\'#photo_' + (i + 1) + '\'))" class="i"></span>';
         }
-        var navigation = '<div class="nav">' + _nav + '</div>'
+        var navigation = '<div class="nav">' + _nav + '</div>';
         g('#wrap').innerHTML = _wrap + navigation;
 
         rsort(random([1, data.length]));
