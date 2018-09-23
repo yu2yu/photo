@@ -24,13 +24,19 @@ $4、hidden man@\
 我们这个凡人世界，<br>\
 碰到一起了怎么办？<br>\
 <br><br>\
-\$5、篮球@\
+$5、篮球@\
 <br><br>\
 无数次想抛弃，<br>\
 却又捡起，<br>\
 需要勇气。<br>\
 <br><br>\
+$6、攀岩@\
+<br><br>\
+放手，<br>\
+下坠。<br>\
+<br><br>\
 ";
+
 var d = dataStr.split('$');
 console.log(d);
 for (var i = 0; i < d.length; i++) {
